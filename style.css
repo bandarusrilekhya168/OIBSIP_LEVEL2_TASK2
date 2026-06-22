@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    line-height:1.8;
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:20px;
+}
+
+.hero img{
+    width:300px;
+    height:auto;
+    border-radius:15px;
+    margin-top:20px;
+    box-shadow:0 0 20px rgba(255,255,255,0.2);
+}
+
+.quote{
+    background:#f5f5f5;
+    color:black;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.about,
+.timeline,
+.achievements{
+    width:80%;
+    margin:auto;
+    padding:50px 0;
+}
+
+.about h2,
+.timeline h2,
+.achievements h2{
+    margin-bottom:20px;
+    color:#00d9ff;
+}
+
+.timeline ul,
+.achievements ul{
+    margin-left:20px;
+}
+
+footer{
+    text-align:center;
+    background:#000;
+    padding:20px;
+}
